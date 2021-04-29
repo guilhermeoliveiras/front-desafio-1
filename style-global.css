@@ -76,15 +76,6 @@ header {
     border-radius: 10px;
 }
 
-h3 {
-    border-left: 3px solid #FE0078;;
-    height: 38px;
-    display: flex;
-    align-items: center;
-    padding-left: 11px;
-    margin-left: 20px;
-}
-
 aside {
     display: flex;
     flex-direction: column;
@@ -95,6 +86,7 @@ aside {
     background-color: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    margin-bottom: 64px;
 }
 
 .advertising {
@@ -130,6 +122,12 @@ aside {
 .aside-title h3 {
     font-weight: 700;
     font-size: 18px;
+    border-left: 3px solid #FE0078;;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+    margin-left: 20px;
 }
 
 aside ul li {

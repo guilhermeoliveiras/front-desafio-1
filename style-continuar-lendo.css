@@ -2,7 +2,7 @@
 
 main {
     display: flex;
-    height: 1772px;
+    height: 1745px;
     justify-content: space-evenly;
 }
 
@@ -49,8 +49,22 @@ section h5 {
 
 .paragraph {
     text-align: justify;
-    padding-left: 24px;
+    padding: 0px 24px 24px;
+}
+
+.paragraph-first {
+    padding-top: 24px;
+    text-align: justify;
     padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+
+.paragraph, .paragraph-first, #first-ul, #second-ul {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
 }
 
 #first-ul, #second-ul {
@@ -72,6 +86,10 @@ section h5 {
 
 #comments h2 {
     margin-bottom: 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 #data {
@@ -80,22 +98,18 @@ section h5 {
     justify-content: space-between;
 }
 
-#name h4 {
+#name h4, #email h4, #comment h4 {
     margin-bottom: 8px;
+    font-weight: 400; 
+    font-size: 14px;
+    line-height: 19px;
 }
 
-#email h4 {
-    margin-bottom: 8px;
-}
 
 #comment {
     display: flex;
     flex-direction: column;
     width: 730px;
-}
-
-#comment h4 {
-    margin-bottom: 8px;
 }
 
 #input-name, #input-email {
@@ -106,6 +120,13 @@ section h5 {
 #input-name, #input-email, #input-comment {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+#input-name:hover, #input-email:hover, #input-comment:hover {
+    background: #FFFFFF;
+    border: 1px solid #FE0078;
     box-sizing: border-box;
     border-radius: 2px;
 }

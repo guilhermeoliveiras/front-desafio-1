@@ -18,6 +18,11 @@ h5 {
     margin-top: 8px;
     margin-left: 24px;
     margin-bottom: 14px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #929292;
+
 }
 
 section {
@@ -57,24 +62,24 @@ section {
     margin-bottom: 24px;
     margin-right: 24px;
     margin-left: auto;
-    background-color: #FE0078;
+    background: #FFFFFF;
     border: 1px solid #FE0078;
     box-sizing: border-box;
     border-radius: 20px;
     width: 150px;
     height: 40px;
     display: flex;
-    color: #FFFFFF;
+    color: #545454;
     align-items: center;
     justify-content: center;
     transition: .5s;
 }
 
 .button:hover {
-    color: #545454;
-    background: #FFFFFF;
+    color: #FFFFFF;
     border: 1px solid #FE0078;
     transition: .5s;
+    background-color: #FE0078;
 }
 
 a {
