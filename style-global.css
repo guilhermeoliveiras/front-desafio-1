@@ -64,7 +64,6 @@ header {
 
 #search {
     margin-left: 120px;
-    color: #FE0078;
     padding-left: 20px;
     width: 340px;
     height: 52px;
@@ -78,6 +77,10 @@ header {
     border: 1px solid #FE0078;
 }
 
+#search:focus-visible {
+    outline: none;
+}
+
 aside {
     display: flex;
     flex-direction: column;
@@ -86,20 +89,17 @@ aside {
     border-radius: 4px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
     margin-bottom: 64px;
 }
 
 .advertising {
     margin: auto auto 32px;
-    border: 1px solid black;
     height: 240px;
     width: 340px;
     display: flex;
     align-items: center;
     background: #EEEEEE;
     box-sizing: border-box;
-    border: 0px;
 }
 
 .advertising_number {
@@ -151,6 +151,7 @@ aside ul li:hover {
     justify-content: space-between;
     border-bottom: 1px dashed #FE0078;
     color: #FE0078;
+    cursor: pointer;
 }
 
 aside ul li span {

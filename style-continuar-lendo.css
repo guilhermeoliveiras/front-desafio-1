@@ -80,7 +80,6 @@ section h5 {
 
 #comments {
     height: 100px;
-    width: 100px;
     width: 730px;
 }
 
@@ -135,6 +134,8 @@ section h5 {
     width: 730px;
     height: 175px;
     margin-bottom: 48px;
+    resize: none;
+    padding: 10px;
 }
 
 #button-comment {
