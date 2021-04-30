@@ -71,9 +71,13 @@ header {
     width: 340px;
     height: 52px;
     margin: 20px auto 25px;
-    border: 1px solid #FE0078;
+    border: 1px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 10px;
+}
+
+#search:hover {
+    border: 1px solid #FE0078;
 }
 
 aside {
