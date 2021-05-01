@@ -103,6 +103,7 @@ section {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 2px;
+    padding: 10px;
 }
 
 #text-subject {
@@ -112,6 +113,7 @@ section {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 2px;
+    padding: 10px;
 }
 
 #text-comment {
@@ -121,10 +123,16 @@ section {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 2px;
+    padding: 10px;
+    resize: none;
 }
 
 #text-name:hover, #text-email:hover, #text-subject:hover, #text-comment:hover {
     border: 1px solid #FE0078;
+}
+
+#text-name:focus-visible, #text-email:focus-visible, #text-subject:focus-visible, #text-comment:focus-visible {
+    outline: none;
 }
 
 #comment {

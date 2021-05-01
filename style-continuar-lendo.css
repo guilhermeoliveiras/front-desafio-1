@@ -7,6 +7,7 @@ main {
 }
 
 
+
 /* MAIN-BLOCK */
 
 .main-block {
@@ -16,12 +17,12 @@ main {
 }
 
 
+
 /* SECTION */
 
 section {
     display: flex;
     flex-direction: column;
-    /* height: 1152px; */
     width: 730px;
     margin-bottom: 56px;
     background-color: #FFFFFF;
@@ -42,7 +43,6 @@ section h5 {
     padding-bottom: 14px;
     font-weight: 400;
     font-size: 12px;
-    /* line-height: 16px; */
     color: #929292;
     padding-left: 24px;
 }
@@ -76,6 +76,8 @@ section h5 {
     padding-bottom: 5px;
 }
 
+
+
 /* COMMENTS */
 
 #comments {
@@ -104,7 +106,6 @@ section h5 {
     line-height: 19px;
 }
 
-
 #comment {
     display: flex;
     flex-direction: column;
@@ -121,6 +122,7 @@ section h5 {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 2px;
+    padding: 10px;
 }
 
 #input-name:hover, #input-email:hover, #input-comment:hover {
@@ -130,12 +132,15 @@ section h5 {
     border-radius: 2px;
 }
 
+#input-name:focus-visible, #input-email:focus-visible, #input-comment:focus-visible {
+    outline: none;
+}
+
 #input-comment {
     width: 730px;
     height: 175px;
     margin-bottom: 48px;
     resize: none;
-    padding: 10px;
 }
 
 #button-comment {
